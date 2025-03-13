@@ -1,9 +1,14 @@
 <?jelly escape-by-default='true'?>
 <j:jelly xmlns:j="jelly:core" xmlns:l="/lib/layout" xmlns:st="jelly:stapler">
-    <l:header>
-        <script src="${resURL}/plugin/demo/demo.js" type="text/javascript" />
-    </l:header>
-    <h1>
-        Name: ${it.name}
-    </h1>
+    <l:layout title="demo">
+        <l:header>
+            <script src="${resURL}/plugin/demo/demo.js" type="text/javascript" />
+        </l:header>
+        <l:main-panel>
+            <h1>
+                Name: ${it.name}
+            </h1>
+        </l:main-panel>
+
+    </l:layout>
 </j:jelly>
