@@ -1,0 +1,12 @@
+<?jelly escape-by-default='true' ?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:l="/lib/layout">
+    <l:header>
+        <script src="${rootURL}/plugin/demo/header.js" type="text/javascript" />
+    </l:header>
+    <header>
+        <nav>
+            <div>xxx</div>
+        </nav>
+    </header>
+
+</j:jelly>
