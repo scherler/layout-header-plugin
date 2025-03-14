@@ -27,5 +27,4 @@ public class HelloWorldAction implements Action {
     public String getName() {
         return name;
     }
-
 }
